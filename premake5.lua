@@ -27,8 +27,8 @@ project "CWStarter"
 	includedirs
 	{
 		"%{prj.name}/include/",
-		"../../vendor/Box2D/",
-		"../../vendor/SFML-2.4.2/include"
+		"./vendor/Box2D/",
+		"./vendor/SFML-2.4.2/include"
 	}
 
 	
@@ -43,8 +43,8 @@ project "CWStarter"
 		
 		libdirs 
 		{
-			"../../vendor/Box2D/x64/Debug",
-			"../../vendor/SFML-2.4.2/lib"
+			"./vendor/Box2D/x64/Debug",
+			"./vendor/SFML-2.4.2/lib"
 		}
 		
 		links
@@ -75,8 +75,8 @@ project "CWStarter"
 		
 		libdirs 
 		{
-			"../../vendor/Box2D/x64/Release",
-			"../../vendor/SFML-2.4.2/lib"
+			"./vendor/Box2D/x64/Release",
+			"./vendor/SFML-2.4.2/lib"
 		}
 		
 		links
